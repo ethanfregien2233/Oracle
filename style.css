@@ -49,13 +49,20 @@
 
 .h-right{
     display: flex;
-    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
     position: absolute;
-    left: 25%;
+    left: 28%;
+    top: 7.5%;
+    
    
 }
 
 .h-title{
-
+   
     
+}
+
+.h-desc{
+    position: 
 }
