@@ -50,7 +50,9 @@
 .h-right{
     display: flex;
     flex: 1;
-    position: relative;
+    position: absolute;
+    left: 25%;
+   
 }
 
 .h-title{
