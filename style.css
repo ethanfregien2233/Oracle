@@ -6,7 +6,7 @@
     text-decoration: none;
 
 }
-body {
+/* body {
     animation: 10000ms ease-in-out infinite color-change;
   }
   
@@ -29,7 +29,7 @@ body {
     100% {
       background-color: red;
     }
-  }
+  } */
 .wrapper {
     display: flex;
     flex-wrap: wrap;
