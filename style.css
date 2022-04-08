@@ -1,0 +1,18 @@
+.navbar ul {
+    list-style-type: none;
+    width: 200px;
+}
+
+.oracle-brand {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: 900;
+    font-size: x-large;
+    text-decoration: line-through;
+    color: #f50000;
+}
+
+.navitem {
+    text-decoration: none;
+    color: crimson;
+    cursor: pointer;
+}
