@@ -1,9 +1,9 @@
-const express = require("express")
-//const routes
+const express = require("express");
+const routes = require('./controllers');
 //const sequelize
 
-//set app and port
-const app = express()
+// set app and port
+const app = express();
 const PORT = process.env.PORT || 3000;
 
 //set rendering eng
@@ -16,13 +16,13 @@ app.use(express.static(__dirname + '/public'));
 app.use(express.json());
 
 //routes
-// app.use(routes);
+app.use(routes);
 
 
-app.get('./', (req, res)=> {
-    console.log("Here")
-    res.sendStatus(500)
-    res.send("Hi")
-})
+// app.get('./', (req, res)=> {
+//     console.log("Here")
+//     res.sendStatus(500)
+//     res.send("Hi")
+// })
 
 app.listen(PORT, ()=> console.log(`Now listening on ${PORT}`));
