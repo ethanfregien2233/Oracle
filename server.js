@@ -19,10 +19,6 @@ app.use(express.json());
 app.use(routes);
 
 
-// app.get('./', (req, res)=> {
-//     console.log("Here")
-//     res.sendStatus(500)
-//     res.send("Hi")
-// })
+
 
 app.listen(PORT, ()=> console.log(`Now listening on ${PORT}`));
