@@ -11,4 +11,8 @@ router.get('/exposure', (req, res) => {
     res.render('exposure') //just need this, calling render tells ejs to look in views automatically
 });
 
+router.get('/about', (req, res) => {
+    res.render('about')
+});
+
 module.exports = router;
