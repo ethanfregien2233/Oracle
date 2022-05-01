@@ -126,3 +126,16 @@
   width:30%;
   margin-left: 60%;
 }
+
+.headquarters {
+  display: flex;
+  border-color: blue;
+  height: auto;
+  max-width: 60%;
+}
+
+.wine {
+  display: flex;
+  height: auto;
+  max-width: 20%;
+}
