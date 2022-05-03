@@ -150,6 +150,11 @@
   flex-direction: column;
 }
 
+.column{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 .img-container{
   
 }
